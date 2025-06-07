@@ -1,0 +1,24 @@
+{
+    "name": "parcialfinal",
+    "version": "1.0.0",
+    "homepage": "",
+    "license": "ISC",
+    "author": "Marvin Oliva",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/src/index",
+        "dev": "nodemon src/index.ts"
+    },
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    },
+    "description": "",
+    "devDependencies": {
+        "@types/readline-sync": "^1.4.8",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
